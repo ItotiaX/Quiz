@@ -42,7 +42,7 @@ while(guesses > 0){
             
 
     } else {
-        guesses--;
+        guesses--; //subtract if wrong
         if (guesses > 0){
             alert(`Wrong! You have ${guesses} guesses left!`);
         } else {
