@@ -54,6 +54,6 @@ while(guesses > 0){
 } 
 
 } 
- alert('Your total score is: ${total}');
+ alert(`Your total score is: ${total}`);
 }
 quiz();
